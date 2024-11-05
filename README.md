@@ -1,6 +1,9 @@
 # flask_api_midterm
 Flask JWT Authentication, CRUD operations, and file handling Mid term project by Gabriel Bulosan
 
+DEMO RECORDING:
+https://youtu.be/TXfcLeI3RuQ
+
 HOW TO RUN:
 -----------
 1. Clone this repository to your local machine.
