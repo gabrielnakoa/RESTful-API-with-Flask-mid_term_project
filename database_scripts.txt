@@ -1,0 +1,21 @@
+-- Create the database
+CREATE DATABASE flask_project_db;
+
+-- Use the created database
+USE flask_project_db;
+
+-- Create the user table
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL
+);
+
+-- Create the uploads table
+CREATE TABLE uploads (
+    file_id INT AUTO_INCREMENT PRIMARY KEY,
+    file_name VARCHAR(255) NOT NULL,
+    file_type VARCHAR(50) NOT NULL,
+    uploaded_by INT,
+    FOREIGN KEY (uploaded_by) REFERENCES user(id) ON DELETE CASCADE
+);
