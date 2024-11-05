@@ -11,9 +11,8 @@ HOW TO RUN:
   - Start your MySQL server locally.
   - A script for creating the database and tables may be provided in the repository. If not,     
     create the necessary database and tables manually:
-        - Tables:
-            user: Columns - id, username, password
-         uploads: Columns - file_id, file_name, file_type, uploaded_by
+        - Table 1 - user: Columns - id, username, password
+        - Table 2 - uploads: Columns - file_id, file_name, file_type, uploaded_by
 3. Run the Application:
   - Make sure the 'uploads' file is created and is in the same workspace as app.py
   - Start the app in your environment.
