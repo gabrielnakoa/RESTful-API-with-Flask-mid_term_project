@@ -12,6 +12,7 @@ HOW TO RUN:
             user: Columns - id, username, password
          uploads: Columns - file_id, file_name, file_type, uploaded_by
 3. Run the Application:
+  - Make sure the 'uploads' file is created and is in the same workspace as app.py
   - Start the app in your environment.
   - Use Postman to test the following endpoints:
   - /register: Register a new user
