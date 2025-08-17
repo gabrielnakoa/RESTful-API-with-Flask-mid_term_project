@@ -1,4 +1,4 @@
-# flask_api_midterm
+# file upload w/ role based access API
 Flask JWT Authentication, CRUD operations, and file handling Mid term project by Gabriel Bulosan
 
 DEMO RECORDING:
